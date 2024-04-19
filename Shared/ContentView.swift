@@ -9,8 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, JLau!")
-            .padding()
+        VStack(alignment: .leading) {
+            Text("Apple Music Hub").font(.largeTitle).fontWeight(.bold)
+            Text("The first revoluntionary AM Hub, where you can import and learn all about your music history, tendencies, and discover new tunes for you.").font(.body).foregroundColor(Color.gray)
+        }
     }
 }
 
