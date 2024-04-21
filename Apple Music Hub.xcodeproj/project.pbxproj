@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		068B03592BD5B6690068716E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B03582BD5B6690068716E /* MainView.swift */; };
+		068B035A2BD5B6690068716E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B03582BD5B6690068716E /* MainView.swift */; };
+		068B035C2BD5B7A00068716E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B035B2BD5B7A00068716E /* ContentView.swift */; };
+		068B035D2BD5B7A00068716E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B035B2BD5B7A00068716E /* ContentView.swift */; };
+		068B035F2BD5B8D40068716E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B035E2BD5B8D40068716E /* ProfileView.swift */; };
+		068B03602BD5B8D40068716E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B035E2BD5B8D40068716E /* ProfileView.swift */; };
+		068B03622BD5B94A0068716E /* AddSongsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B03612BD5B94A0068716E /* AddSongsView.swift */; };
+		068B03632BD5B94A0068716E /* AddSongsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B03612BD5B94A0068716E /* AddSongsView.swift */; };
 		06BBC1F82BD1EC29008C2BFE /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BBC1F72BD1EC29008C2BFE /* Tests_iOS.swift */; };
 		06BBC2032BD1EC29008C2BFE /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BBC2022BD1EC29008C2BFE /* Tests_macOS.swift */; };
 		06BBC2052BD1EC29008C2BFE /* Apple_Music_HubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BBC1DC2BD1EC28008C2BFE /* Apple_Music_HubApp.swift */; };
@@ -35,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		068B03582BD5B6690068716E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		068B035B2BD5B7A00068716E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		068B035E2BD5B8D40068716E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		068B03612BD5B94A0068716E /* AddSongsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSongsView.swift; sourceTree = "<group>"; };
 		06BBC1DC2BD1EC28008C2BFE /* Apple_Music_HubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_Music_HubApp.swift; sourceTree = "<group>"; };
 		06BBC1DD2BD1EC28008C2BFE /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
 		06BBC1DE2BD1EC29008C2BFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,6 +112,10 @@
 			children = (
 				06BBC1DC2BD1EC28008C2BFE /* Apple_Music_HubApp.swift */,
 				06BBC1DD2BD1EC28008C2BFE /* LandingPage.swift */,
+				068B03582BD5B6690068716E /* MainView.swift */,
+				068B035E2BD5B8D40068716E /* ProfileView.swift */,
+				068B03612BD5B94A0068716E /* AddSongsView.swift */,
+				068B035B2BD5B7A00068716E /* ContentView.swift */,
 				06BBC1DE2BD1EC29008C2BFE /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -308,7 +324,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				068B03592BD5B6690068716E /* MainView.swift in Sources */,
 				06BBC2072BD1EC29008C2BFE /* LandingPage.swift in Sources */,
+				068B035F2BD5B8D40068716E /* ProfileView.swift in Sources */,
+				068B03622BD5B94A0068716E /* AddSongsView.swift in Sources */,
+				068B035C2BD5B7A00068716E /* ContentView.swift in Sources */,
 				06BBC2052BD1EC29008C2BFE /* Apple_Music_HubApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +337,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				068B035A2BD5B6690068716E /* MainView.swift in Sources */,
 				06BBC2082BD1EC29008C2BFE /* LandingPage.swift in Sources */,
+				068B03602BD5B8D40068716E /* ProfileView.swift in Sources */,
+				068B03632BD5B94A0068716E /* AddSongsView.swift in Sources */,
+				068B035D2BD5B7A00068716E /* ContentView.swift in Sources */,
 				06BBC2062BD1EC29008C2BFE /* Apple_Music_HubApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

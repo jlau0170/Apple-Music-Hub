@@ -50,7 +50,7 @@ struct LandingPageView: View {
 }
 
 func signIn() {
-    // Sign into Apple Music
+//    MuseicUser.isAuthenticated = true
 }
 
 struct LandingPageView_Previews: PreviewProvider {

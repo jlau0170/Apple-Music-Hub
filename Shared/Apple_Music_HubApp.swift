@@ -8,7 +8,12 @@
 import SwiftUI
 
 @main
+
 struct Apple_Music_HubApp: App {
+//    class MuseicUser: ObservableObject {
+//        @Published var isAuthenticated = false
+//    }
+    
     var body: some Scene {
         WindowGroup {
             LandingPageView()
