@@ -269,7 +269,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 06BBC1DA2BD1EC28008C2BFE /* Build configuration list for PBXProject "Apple Music Hub" */;
+			buildConfigurationList = 06BBC1DA2BD1EC28008C2BFE /* Build configuration list for PBXProject "Museic" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -508,7 +508,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "jlaukungpow.Apple-Music-Hub";
+				PRODUCT_BUNDLE_IDENTIFIER = jlaukungpow.Museic;
 				PRODUCT_NAME = "Apple Music Hub";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -529,7 +529,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "jlaukungpow.Apple-Music-Hub";
+				PRODUCT_BUNDLE_IDENTIFIER = jlaukungpow.Museic;
 				PRODUCT_NAME = "Apple Music Hub";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -553,7 +553,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "jlaukungpow.Apple-Music-Hub";
+				PRODUCT_BUNDLE_IDENTIFIER = jlaukungpow.Museic;
 				PRODUCT_NAME = "Apple Music Hub";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
@@ -575,7 +575,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "jlaukungpow.Apple-Music-Hub";
+				PRODUCT_BUNDLE_IDENTIFIER = jlaukungpow.Museic;
 				PRODUCT_NAME = "Apple Music Hub";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
@@ -670,7 +670,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		06BBC1DA2BD1EC28008C2BFE /* Build configuration list for PBXProject "Apple Music Hub" */ = {
+		06BBC1DA2BD1EC28008C2BFE /* Build configuration list for PBXProject "Museic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06BBC20B2BD1EC29008C2BFE /* Debug */,

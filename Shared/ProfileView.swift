@@ -1,6 +1,6 @@
 //
 //  ProfileView.swift
-//  Apple Music Hub
+//  Museic
 //
 //  Created by Justin Lau on 2024-04-21.
 //
