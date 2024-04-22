@@ -30,33 +30,43 @@ struct LandingPageView: View {
                         .padding(EdgeInsets(top: 0, leading: 8, bottom: 0, trailing: 0))
                 }
                 
-                Text("The new easy way of discovering music for you.").font(.body).foregroundColor(Color.black).padding(EdgeInsets(top: 10, leading: 10, bottom: 0, trailing: 10))
+                Text("A fun and easy way of discovering music for you.").font(.body).foregroundColor(Color.black).padding(EdgeInsets(top: 10, leading: 10, bottom: 0, trailing: 10))
                 
-                HStack {
-                    Spacer()
-                    Button(action: {
-                        print(self.currUser.firstName)
-                        print(self.currUser.isAuthorized)
-                            self.currUser.isAuthorized = true
-                        print(self.currUser.isAuthorized)
-                    }) {
-                        Text("Sign in with")
-                        Image("apple-music-logo").resizable().aspectRatio(contentMode: .fit).frame(width: 60).padding(EdgeInsets(top: 0, leading: 0, bottom: 2, trailing: 0))
-                    }
-                    .padding(.vertical, 10)
-                    .padding(.horizontal, 12)
-                    .accentColor(Color.black)
-                    .background(Color.blue)
-                    .cornerRadius(12.0)
-                    Spacer()
-                }.padding(EdgeInsets(top: 50, leading: 0, bottom: 0, trailing: 0))
-            }
+                VStack {
+                    HStack {
+                        Spacer()
+                        Button(action: signIn) {
+                            Text("Sign in with")
+                            Image("spotify-logo").resizable().aspectRatio(contentMode: .fit).frame(width: 72).padding(EdgeInsets(top: 0, leading: 0, bottom: 2, trailing: 0))
+                        }.padding(.vertical, 10)
+                        .padding(.horizontal, 12)
+                        .accentColor(Color.black)
+                        .background(Color.blue)
+                        .cornerRadius(12.0)
+                        Spacer()
+                    }.padding(EdgeInsets(top: 50, leading: 0, bottom: 0, trailing: 0))
+                    HStack {
+                        Spacer()
+                        Button(action: signIn) {
+                            Text("Sign in with")
+                            Image("apple-music-logo").resizable().aspectRatio(contentMode: .fit).frame(width: 72).padding(EdgeInsets(top: 0, leading: 0, bottom: 2, trailing: 0))
+                        }
+                        .padding(.vertical, 10)
+                        .padding(.horizontal, 12)
+                        .accentColor(Color.black)
+                        .background(Color.blue)
+                        .cornerRadius(12.0)
+                        Spacer()
+                    }.padding(EdgeInsets(top: 10, leading: 0, bottom: 0, trailing: 0))
+                }
+                }
         }
+        
     }
-}
-
-func signIn() {
-
+    
+    func signIn() {
+        self.currUser.isAuthorized = true
+    }
 }
 
 struct LandingPageView_Previews: PreviewProvider {

@@ -15,6 +15,8 @@
 		068B03602BD5B8D40068716E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B035E2BD5B8D40068716E /* ProfileView.swift */; };
 		068B03652BD5F0680068716E /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B03642BD5F0680068716E /* UserModel.swift */; };
 		068B03662BD5F0680068716E /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B03642BD5F0680068716E /* UserModel.swift */; };
+		068B03682BD635A00068716E /* MuseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B03672BD635A00068716E /* MuseCard.swift */; };
+		068B03692BD635A00068716E /* MuseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B03672BD635A00068716E /* MuseCard.swift */; };
 		06BBC1F82BD1EC29008C2BFE /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BBC1F72BD1EC29008C2BFE /* Tests_iOS.swift */; };
 		06BBC2032BD1EC29008C2BFE /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BBC2022BD1EC29008C2BFE /* Tests_macOS.swift */; };
 		06BBC2052BD1EC29008C2BFE /* MuseicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BBC1DC2BD1EC28008C2BFE /* MuseicApp.swift */; };
@@ -47,6 +49,7 @@
 		068B035B2BD5B7A00068716E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		068B035E2BD5B8D40068716E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		068B03642BD5F0680068716E /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		068B03672BD635A00068716E /* MuseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseCard.swift; sourceTree = "<group>"; };
 		06BBC1DC2BD1EC28008C2BFE /* MuseicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseicApp.swift; sourceTree = "<group>"; };
 		06BBC1DD2BD1EC28008C2BFE /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		06BBC1DE2BD1EC29008C2BFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -117,6 +120,7 @@
 				068B035B2BD5B7A00068716E /* ContentView.swift */,
 				06BBC1DE2BD1EC29008C2BFE /* Assets.xcassets */,
 				068B03642BD5F0680068716E /* UserModel.swift */,
+				068B03672BD635A00068716E /* MuseCard.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -325,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				068B03592BD5B6690068716E /* MainView.swift in Sources */,
+				068B03682BD635A00068716E /* MuseCard.swift in Sources */,
 				06BBC2072BD1EC29008C2BFE /* LandingView.swift in Sources */,
 				068B035F2BD5B8D40068716E /* ProfileView.swift in Sources */,
 				068B035C2BD5B7A00068716E /* ContentView.swift in Sources */,
@@ -338,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				068B035A2BD5B6690068716E /* MainView.swift in Sources */,
+				068B03692BD635A00068716E /* MuseCard.swift in Sources */,
 				06BBC2082BD1EC29008C2BFE /* LandingView.swift in Sources */,
 				068B03602BD5B8D40068716E /* ProfileView.swift in Sources */,
 				068B035D2BD5B7A00068716E /* ContentView.swift in Sources */,

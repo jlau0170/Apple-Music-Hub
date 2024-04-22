@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var currUser: User
+    
     var body: some View {
         TabView {
             MainView()

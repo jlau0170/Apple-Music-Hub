@@ -9,6 +9,7 @@ import SwiftUI
 
 struct MainView: View {
     @State private var animateGradient = false
+    @State private var isPlaying = false;
     
     var body: some View {
         let gradient1 = Gradient(colors: [.blue, .purple])
@@ -22,8 +23,25 @@ struct MainView: View {
                     }
                 }
                 .ignoresSafeArea()
-            
+            VStack {
+                renderHeaderText()
+                MuseCard()
+            }
             Text("Hello from Main View!")
+        }
+    }
+    
+    func renderHeaderText() -> HStack<TupleView<(Text, Image)>> {
+        if (isPlaying) {
+            return HStack {
+                Text("Now playing")
+                Image(systemName: "speaker.wave.2.fill")
+            }
+        } else {
+            return HStack {
+                Text("The (Muse)ic")
+                Image(systemName: "null")
+            }
         }
     }
 }
