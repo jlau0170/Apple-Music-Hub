@@ -13,14 +13,14 @@
 		068B035D2BD5B7A00068716E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B035B2BD5B7A00068716E /* ContentView.swift */; };
 		068B035F2BD5B8D40068716E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B035E2BD5B8D40068716E /* ProfileView.swift */; };
 		068B03602BD5B8D40068716E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B035E2BD5B8D40068716E /* ProfileView.swift */; };
-		068B03622BD5B94A0068716E /* AddSongsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B03612BD5B94A0068716E /* AddSongsView.swift */; };
-		068B03632BD5B94A0068716E /* AddSongsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B03612BD5B94A0068716E /* AddSongsView.swift */; };
+		068B03652BD5F0680068716E /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B03642BD5F0680068716E /* UserModel.swift */; };
+		068B03662BD5F0680068716E /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B03642BD5F0680068716E /* UserModel.swift */; };
 		06BBC1F82BD1EC29008C2BFE /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BBC1F72BD1EC29008C2BFE /* Tests_iOS.swift */; };
 		06BBC2032BD1EC29008C2BFE /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BBC2022BD1EC29008C2BFE /* Tests_macOS.swift */; };
-		06BBC2052BD1EC29008C2BFE /* Apple_Music_HubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BBC1DC2BD1EC28008C2BFE /* Apple_Music_HubApp.swift */; };
-		06BBC2062BD1EC29008C2BFE /* Apple_Music_HubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BBC1DC2BD1EC28008C2BFE /* Apple_Music_HubApp.swift */; };
-		06BBC2072BD1EC29008C2BFE /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BBC1DD2BD1EC28008C2BFE /* LandingPage.swift */; };
-		06BBC2082BD1EC29008C2BFE /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BBC1DD2BD1EC28008C2BFE /* LandingPage.swift */; };
+		06BBC2052BD1EC29008C2BFE /* MuseicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BBC1DC2BD1EC28008C2BFE /* MuseicApp.swift */; };
+		06BBC2062BD1EC29008C2BFE /* MuseicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BBC1DC2BD1EC28008C2BFE /* MuseicApp.swift */; };
+		06BBC2072BD1EC29008C2BFE /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BBC1DD2BD1EC28008C2BFE /* LandingView.swift */; };
+		06BBC2082BD1EC29008C2BFE /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BBC1DD2BD1EC28008C2BFE /* LandingView.swift */; };
 		06BBC2092BD1EC29008C2BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06BBC1DE2BD1EC29008C2BFE /* Assets.xcassets */; };
 		06BBC20A2BD1EC29008C2BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06BBC1DE2BD1EC29008C2BFE /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -46,9 +46,9 @@
 		068B03582BD5B6690068716E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		068B035B2BD5B7A00068716E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		068B035E2BD5B8D40068716E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		068B03612BD5B94A0068716E /* AddSongsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSongsView.swift; sourceTree = "<group>"; };
-		06BBC1DC2BD1EC28008C2BFE /* Apple_Music_HubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_Music_HubApp.swift; sourceTree = "<group>"; };
-		06BBC1DD2BD1EC28008C2BFE /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
+		068B03642BD5F0680068716E /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		06BBC1DC2BD1EC28008C2BFE /* MuseicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseicApp.swift; sourceTree = "<group>"; };
+		06BBC1DD2BD1EC28008C2BFE /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		06BBC1DE2BD1EC29008C2BFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06BBC1E32BD1EC29008C2BFE /* Apple Music Hub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Music Hub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06BBC1E62BD1EC29008C2BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -110,13 +110,13 @@
 		06BBC1DB2BD1EC28008C2BFE /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				06BBC1DC2BD1EC28008C2BFE /* Apple_Music_HubApp.swift */,
-				06BBC1DD2BD1EC28008C2BFE /* LandingPage.swift */,
+				06BBC1DC2BD1EC28008C2BFE /* MuseicApp.swift */,
+				06BBC1DD2BD1EC28008C2BFE /* LandingView.swift */,
 				068B03582BD5B6690068716E /* MainView.swift */,
 				068B035E2BD5B8D40068716E /* ProfileView.swift */,
-				068B03612BD5B94A0068716E /* AddSongsView.swift */,
 				068B035B2BD5B7A00068716E /* ContentView.swift */,
 				06BBC1DE2BD1EC29008C2BFE /* Assets.xcassets */,
+				068B03642BD5F0680068716E /* UserModel.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -325,11 +325,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				068B03592BD5B6690068716E /* MainView.swift in Sources */,
-				06BBC2072BD1EC29008C2BFE /* LandingPage.swift in Sources */,
+				06BBC2072BD1EC29008C2BFE /* LandingView.swift in Sources */,
 				068B035F2BD5B8D40068716E /* ProfileView.swift in Sources */,
-				068B03622BD5B94A0068716E /* AddSongsView.swift in Sources */,
 				068B035C2BD5B7A00068716E /* ContentView.swift in Sources */,
-				06BBC2052BD1EC29008C2BFE /* Apple_Music_HubApp.swift in Sources */,
+				068B03652BD5F0680068716E /* UserModel.swift in Sources */,
+				06BBC2052BD1EC29008C2BFE /* MuseicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,11 +338,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				068B035A2BD5B6690068716E /* MainView.swift in Sources */,
-				06BBC2082BD1EC29008C2BFE /* LandingPage.swift in Sources */,
+				06BBC2082BD1EC29008C2BFE /* LandingView.swift in Sources */,
 				068B03602BD5B8D40068716E /* ProfileView.swift in Sources */,
-				068B03632BD5B94A0068716E /* AddSongsView.swift in Sources */,
 				068B035D2BD5B7A00068716E /* ContentView.swift in Sources */,
-				06BBC2062BD1EC29008C2BFE /* Apple_Music_HubApp.swift in Sources */,
+				068B03662BD5F0680068716E /* UserModel.swift in Sources */,
+				06BBC2062BD1EC29008C2BFE /* MuseicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct LandingPageView: View {
+    @EnvironmentObject var currUser: User
     @State private var animateGradient = false
     
     var body: some View {
         let gradient1 = Gradient(colors: [.blue, .purple])
-
+        
         ZStack {
             LinearGradient(gradient: gradient1, startPoint: .topLeading, endPoint: .bottomTrailing)
                 .hueRotation(.degrees(animateGradient ? 90 : 0))
@@ -33,7 +34,12 @@ struct LandingPageView: View {
                 
                 HStack {
                     Spacer()
-                    Button(action: signIn) {
+                    Button(action: {
+                        print(self.currUser.firstName)
+                        print(self.currUser.isAuthorized)
+                            self.currUser.isAuthorized = true
+                        print(self.currUser.isAuthorized)
+                    }) {
                         Text("Sign in with")
                         Image("apple-music-logo").resizable().aspectRatio(contentMode: .fit).frame(width: 60).padding(EdgeInsets(top: 0, leading: 0, bottom: 2, trailing: 0))
                     }
@@ -50,7 +56,7 @@ struct LandingPageView: View {
 }
 
 func signIn() {
-//    MuseicUser.isAuthenticated = true
+
 }
 
 struct LandingPageView_Previews: PreviewProvider {
